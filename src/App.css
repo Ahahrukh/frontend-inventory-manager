@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.table{
+  align-self: left;
+  width:100%;
+  margin: auto;
+}
+.paginationButtons{
+  width:50%;
+  margin: auto;
+}
+.filters{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px 40px 0px;
+}
+.filters>div{
+    width: 45%;
+}
+.my-custom-scrollbar {
+  position: relative;
+  height: 300px;
+  overflow: auto;
+  }
+  .table-wrapper-scroll-y {
+  display: block;
+  width: 60%;
+  margin: auto;
+  }
+
+ .hi{
+  height: 1000px;
+ }
+ .g-3{
+  height: 450px;
+  padding: 60px;
+  width: 60%;
+  border: 5px solid rebeccapurple;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 20px;
+ }
+
+ .g-3:hover{
+  border: 5px solid rgb(51, 153, 119);
+ }
+ .g-3>div>select{
+    width: 100%;
+    height: 40px;
+    border-color: rgb(20, 220, 153);
+    border-radius: 4px;
+ }
+ .g-3>div>input{
+  width: 100%;
+  height: 40px;
+  border-color: rgb(20, 220, 153);
+}
+.g-3>div>label{
+ color: rgb(226, 105, 105);
+ text-decoration: solid;
+}
+.filtersInventoryChange{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px 40px 0px;
+}
+.filtersInventoryChange>div{
+  width: 30%;
+}
+
+.dateFilter{
+  width: 50%;
+  display: flex;
+  margin: auto;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.g-3>div>button{
+  width: 30%;
+  height: 40px;
+  margin-top: 20px;
+}
